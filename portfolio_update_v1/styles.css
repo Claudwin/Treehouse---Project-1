@@ -20,6 +20,17 @@ a {
 a:hover {
   color: #6633ff;
 }
+/* Img Styles */
+.imgemt {
+ float: left;
+  margin: 0 0 20px;
+  max-width: 30%;
+  padding-right: 1em;
+ 
+}
+.clearfix {
+  clear: both;
+}
 
 /* Section Styles */
 
@@ -52,12 +63,12 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: orange;
 }
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/edmonton.png') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -86,7 +97,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: whitesmoke;
 }
 .card {
   margin: 30px;
@@ -194,7 +205,7 @@ a.social:hover {
   }
 
   main p {
-    line-height: 1.6em;
+    line-height: 1.3em;
   }
 
   footer {
